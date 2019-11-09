@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
-import {Hamburger, TotalPrice} from "./components";
-
+import React from "react";
+import "./App.css";
+import { Hamburger, TotalPrice, Ingredient } from "./components";
 
 function App() {
   return (
-      <div>
-        <Hamburger />
-        <TotalPrice />
-      </div>
+    <div>
+      <Hamburger />
+      <TotalPrice />
+      <Ingredient />
+    </div>
   );
 }
 
